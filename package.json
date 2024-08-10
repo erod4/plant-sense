@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@alevy97/react-native-userdefaults": "^0.2.1",
     "@react-native/virtualized-lists": "^0.74.86",
     "expo": "~51.0.24",
     "expo-dev-client": "~4.0.21",
@@ -21,7 +22,11 @@
     "react-native-svg": "^15.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-private-methods": "^7.24.7",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "metro-react-native-babel-preset": "^0.77.0"
   },
   "private": true
 }

@@ -24,13 +24,21 @@
 		CD6EA8DC2C5EB6600049ADEB /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8DB2C5EB6600049ADEB /* AppIntent.swift */; };
 		CD6EA8DE2C5EB6630049ADEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6EA8DD2C5EB6630049ADEB /* Assets.xcassets */; };
 		CD6EA8E22C5EB6630049ADEB /* PlantSenseWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CD6EA8CF2C5EB6600049ADEB /* PlantSenseWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CD6EA8EA2C5EBF050049ADEB /* AutoCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8E92C5EBF050049ADEB /* AutoCarouselView.swift */; };
 		CD6EA8F22C5ED7320049ADEB /* ShiftPlantOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8F02C5ED72C0049ADEB /* ShiftPlantOverlay.swift */; };
 		CD6EA8F42C5EDA040049ADEB /* ShiftPlantsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8F32C5EDA040049ADEB /* ShiftPlantsIntent.swift */; };
 		CD6EA8F52C5EEBD70049ADEB /* ShiftPlantOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8F02C5ED72C0049ADEB /* ShiftPlantOverlay.swift */; };
 		CD6EA8F62C5EEC720049ADEB /* ShiftPlantsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8F32C5EDA040049ADEB /* ShiftPlantsIntent.swift */; };
 		CD6EA94B2C5F14420049ADEB /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA94A2C5F14420049ADEB /* SharedPreferences.swift */; };
 		CD6EA94C2C5F14500049ADEB /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA94A2C5F14420049ADEB /* SharedPreferences.swift */; };
+		CDF475E22C609632001B6279 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475E12C609632001B6279 /* Provider.swift */; };
+		CDF475E42C60971A001B6279 /* PlantSenseWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475E32C60971A001B6279 /* PlantSenseWidgetEntryView.swift */; };
+		CDF475E52C6097C0001B6279 /* PlantSenseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6EA8D92C5EB6600049ADEB /* PlantSenseWidget.swift */; };
+		CDF475E62C6098EF001B6279 /* PlantSenseWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475E32C60971A001B6279 /* PlantSenseWidgetEntryView.swift */; };
+		CDF475E72C60991A001B6279 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475E12C609632001B6279 /* Provider.swift */; };
+		CDF475E92C60B0FE001B6279 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475E82C60B0FD001B6279 /* ProgressBar.swift */; };
+		CDF475EA2C60B0FE001B6279 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475E82C60B0FD001B6279 /* ProgressBar.swift */; };
+		CDF475EC2C61C955001B6279 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475EB2C61C955001B6279 /* BatteryView.swift */; };
+		CDF475ED2C61C956001B6279 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF475EB2C61C955001B6279 /* BatteryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,11 +88,14 @@
 		CD6EA8DB2C5EB6600049ADEB /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		CD6EA8DD2C5EB6630049ADEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD6EA8DF2C5EB6630049ADEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD6EA8E92C5EBF050049ADEB /* AutoCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoCarouselView.swift; path = "../../../../Documents - Enrique’s Laptop/Projects/PlantSense/ios/PlantMonitorWidget/AutoCarouselView.swift"; sourceTree = "<group>"; };
 		CD6EA8F02C5ED72C0049ADEB /* ShiftPlantOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftPlantOverlay.swift; sourceTree = "<group>"; };
 		CD6EA8F32C5EDA040049ADEB /* ShiftPlantsIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftPlantsIntent.swift; sourceTree = "<group>"; };
 		CD6EA94A2C5F14420049ADEB /* SharedPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPreferences.swift; sourceTree = "<group>"; };
 		CD6EA94D2C5F18880049ADEB /* PlantSenseWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlantSenseWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CDF475E12C609632001B6279 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		CDF475E32C60971A001B6279 /* PlantSenseWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantSenseWidgetEntryView.swift; sourceTree = "<group>"; };
+		CDF475E82C60B0FD001B6279 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CDF475EB2C61C955001B6279 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F5B1B02154E14C8B8CD75227 /* PlantSense-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "PlantSense-Bridging-Header.h"; path = "PlantSense/PlantSense-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-PlantSense/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
@@ -192,8 +203,9 @@
 		CD6EA8D42C5EB6600049ADEB /* PlantSenseWidget */ = {
 			isa = PBXGroup;
 			children = (
+				CDF475E32C60971A001B6279 /* PlantSenseWidgetEntryView.swift */,
+				CDF475E12C609632001B6279 /* Provider.swift */,
 				CD6EA8F32C5EDA040049ADEB /* ShiftPlantsIntent.swift */,
-				CD6EA8E92C5EBF050049ADEB /* AutoCarouselView.swift */,
 				CD6EA8D52C5EB6600049ADEB /* PlantSenseWidgetBundle.swift */,
 				CD6EA8D72C5EB6600049ADEB /* PlantSenseWidgetLiveActivity.swift */,
 				CD6EA8D92C5EB6600049ADEB /* PlantSenseWidget.swift */,
@@ -202,6 +214,8 @@
 				CD6EA8DF2C5EB6630049ADEB /* Info.plist */,
 				CD6EA8F02C5ED72C0049ADEB /* ShiftPlantOverlay.swift */,
 				CD6EA94A2C5F14420049ADEB /* SharedPreferences.swift */,
+				CDF475E82C60B0FD001B6279 /* ProgressBar.swift */,
+				CDF475EB2C61C955001B6279 /* BatteryView.swift */,
 			);
 			path = PlantSenseWidget;
 			sourceTree = "<group>";
@@ -273,6 +287,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
@@ -436,11 +451,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				CDF475E92C60B0FE001B6279 /* ProgressBar.swift in Sources */,
 				CD6EA94B2C5F14420049ADEB /* SharedPreferences.swift in Sources */,
+				CDF475E52C6097C0001B6279 /* PlantSenseWidget.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
+				CDF475EC2C61C955001B6279 /* BatteryView.swift in Sources */,
 				742D3DEF37B84AFF9C4DA1BF /* noop-file.swift in Sources */,
 				CD6EA8F62C5EEC720049ADEB /* ShiftPlantsIntent.swift in Sources */,
+				CDF475E62C6098EF001B6279 /* PlantSenseWidgetEntryView.swift in Sources */,
+				CDF475E72C60991A001B6279 /* Provider.swift in Sources */,
 				CD6EA8F52C5EEBD70049ADEB /* ShiftPlantOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,12 +470,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6EA8D62C5EB6600049ADEB /* PlantSenseWidgetBundle.swift in Sources */,
-				CD6EA8EA2C5EBF050049ADEB /* AutoCarouselView.swift in Sources */,
 				CD6EA8DC2C5EB6600049ADEB /* AppIntent.swift in Sources */,
+				CDF475ED2C61C956001B6279 /* BatteryView.swift in Sources */,
 				CD6EA94C2C5F14500049ADEB /* SharedPreferences.swift in Sources */,
 				CD6EA8F42C5EDA040049ADEB /* ShiftPlantsIntent.swift in Sources */,
+				CDF475E22C609632001B6279 /* Provider.swift in Sources */,
 				CD6EA8F22C5ED7320049ADEB /* ShiftPlantOverlay.swift in Sources */,
 				CD6EA8DA2C5EB6600049ADEB /* PlantSenseWidget.swift in Sources */,
+				CDF475E42C60971A001B6279 /* PlantSenseWidgetEntryView.swift in Sources */,
+				CDF475EA2C60B0FE001B6279 /* ProgressBar.swift in Sources */,
 				CD6EA8D82C5EB6600049ADEB /* PlantSenseWidgetLiveActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +502,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PlantSense/PlantSense.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 98R39JR89W;
 				ENABLE_BITCODE = NO;
@@ -487,7 +512,7 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = PlantSense/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +526,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erod164.PlantSense;
 				PRODUCT_NAME = PlantSense;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PlantSense/PlantSense-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -517,10 +543,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PlantSense/PlantSense.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 98R39JR89W;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = PlantSense/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,6 +563,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erod164.PlantSense;
 				PRODUCT_NAME = PlantSense;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PlantSense/PlantSense-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -590,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD = "";
 				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -649,7 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD = "";
 				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -669,6 +699,7 @@
 		CD6EA8E42C5EB6630049ADEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -700,9 +731,12 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erod164.PlantSense.PlantSenseWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -714,6 +748,7 @@
 		CD6EA8E52C5EB6630049ADEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -745,9 +780,12 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erod164.PlantSense.PlantSenseWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -9,6 +9,16 @@
       "ios": {
         "simulator": true
       }
+    },
+    "production": {
+      "releaseChannel": "production",
+      "distribution": "store",
+      "ios": {
+        "simulator": false
+      },
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
     }
   },
   "submit": {
